@@ -1,4 +1,4 @@
-class Api::v1::SpellbooksController < ApplicationController
+class Api::V1::SpellbooksController < ApplicationController
 
   before_action :set_spellbook, only: [:show, :update, :destroy]
 
